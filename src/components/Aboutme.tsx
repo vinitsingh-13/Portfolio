@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
-// import ModelViewer from "./Island";
+import ModelViewer from "./Island";
 
 export default function Aboutme() {
   return (
@@ -86,7 +86,7 @@ export default function Aboutme() {
           </motion.p>
         </div>
       </div>
-      {/* <motion.div
+      <motion.div
         className=" md:absolute md:right-0 md:h-full md:w-1/2 lg:absolute lg:right-5 lg:w-1/2 h-full w-full lg:-top-8 "
         initial={{ x: 200, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
@@ -99,7 +99,7 @@ export default function Aboutme() {
         }}
       >
         <ModelViewer />
-      </motion.div> */}
+      </motion.div>
     </div>
   );
 }
