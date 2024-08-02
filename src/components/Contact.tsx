@@ -3,8 +3,8 @@ export default function Contact() {
     <>
       <div className="flex flex-col items-center justify-center md:gap-16 gap-8 md:bg-gray-50 py-6 leading-9 dark:bg-[#010B13]" id="contactme">
         <div className="flex flex-col items-center gap-4 lg:gap-6">
-          <h1 className="md:text-5xl text-4xl font-medium text-purple-700">Contact me</h1>
-          <p className="md:w-[70%] text-center text-lg font-medium tracking-widest px-3">
+          <h1 className="md:text-5xl text-4xl font-medium text-yellow-400">Contact me</h1>
+          <p className="md:w-[70%] text-center text-lg font-medium tracking-widest px-3 text-white">
             Want to work with me or wanna offer me a job. Contact me using the
             below buttons.
           </p>

@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 export default function App() {
   return (
-    <div className="bg-transition dark:bg-[#17153B] dark:text-white">
+    <div>
       <Navbar />
       <Aboutme />
       <Skills />

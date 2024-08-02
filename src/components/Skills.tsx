@@ -37,16 +37,16 @@ export default function Skills() {
     };
   }, []);
   return (
-    <>
-      <div className="flex flex-col items-center justify-center gap-5 bg-gray-50 p-8 leading-7 dark:bg-[#010B13]">
-        <h1 className="text-5xl tracking-wide text-[blueviolet] font-medium">Skills</h1>
-        <p className="lg:w-1/3 text-center text-lg text-gray-700 dark:text-white font-medium md:w-[75%] ">
+    <div className="">
+      <div className="flex flex-col items-center justify-center gap-5  p-8 leading-7 dark:bg-[#010B13]  ">
+        <h1 className="text-5xl tracking-wide text-yellow-400 font-medium">Skills</h1>
+        <p className="lg:w-1/3 text-center text-lg text-white font-medium md:w-[75%] ">
           Here are some of my skills on which I have been working for the past 1
           year.
         </p>
       </div>
       <div
-        className="relative flex lg:h-[80vh] md:h-[60vh] h-[50svh] justify-center bg-gray-50 dark:bg-[#010B13]"
+        className="relative flex lg:h-[80vh] md:h-[60vh] h-[50svh] justify-center dark:bg-[#010B13]"
         id="skills"
       >
         <div
@@ -80,6 +80,6 @@ export default function Skills() {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 }

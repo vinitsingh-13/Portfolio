@@ -12,20 +12,20 @@ const defaultOptions = {
 };
 export default function Projects() {
   return (
-    <>
+    <div className=" ">
       <div
         id="projects"
-        className="flex flex-col gap-5 items-center justify-center pt-6 leading-9 tracking-widest dark:bg-black md:gap-8 lg:gap-8"
+        className="flex flex-col gap-5 items-center justify-center pt-6 leading-9 tracking-widest md:gap-8 lg:gap-8"
       >
-        <h1 className="text-4xl font-medium tracking-wide text-[blueviolet] md:text-5xl">
+        <h1 className="text-4xl font-medium tracking-wide text-yellow-400 md:text-5xl">
           My Projects
         </h1>
-        <p className="text-center md:text-lg font-medium text-gray-700 dark:text-white md:w-[75%] lg:w-1/2 text-lg px-4 ">
+        <p className="text-center md:text-lg font-medium text-white md:w-[75%] lg:w-1/2 text-lg px-4 ">
           I have worked on a wide range of projects. From static websites to web
           apps. Here are some of my projects.
         </p>
       </div>
-      <div className="md-h-screen flex py-12 gap-6 flex-col flex-wrap items-center justify-evenly dark:bg-black md:flex-initial md:gap-5 md:py-6 lg:h-[80vh] lg:flex-row lg:gap-6 lg:py-4">
+      <div className="md-h-screen flex py-12 gap-6 flex-col flex-wrap items-center justify-evenly md:flex-initial md:gap-5 md:py-6 lg:h-[80vh] lg:flex-row lg:gap-6 lg:py-4">
         <Tilt
           className="z-0 flex flex-col h-[26rem] w-[75%] items-center rounded-xl border-2 border-gray-200 bg-gray-50 drop-shadow-xl md:h-[28rem] md:w-[45%] md:flex-col lg:h-[26rem] lg:w-1/4 lg:flex-col"
           options={defaultOptions}
@@ -162,6 +162,6 @@ export default function Projects() {
           </button>
         </Tilt>
       </div>
-    </>
+    </div>
   );
 }

@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <footer className="flex flex-col gap-6 items-center py-10 dark:bg-black">
         <div>
-            <h1 className="text-4xl font-medium tracking-wider text-purple-600">Connect with me</h1>
+            <h1 className="text-4xl font-medium tracking-wider text-yellow-400">Connect with me</h1>
         </div>
         <div className="flex gap-8 cursor-pointer">
             <div className="h-14 w-14 rounded-full bg-white p-2  drop-shadow-lg">
