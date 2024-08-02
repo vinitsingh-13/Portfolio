@@ -14,17 +14,20 @@ export default function Contact() {
             <input
               type="text"
               name="fullname"
+              required
               placeholder="Enter your fullname"
               className="h-14 w-80 rounded-lg px-4 text-gray-500 outline-none"
             />
             <input
               type="email"
+              required
               name="email"
               placeholder="Enter your email"
               className="h-14 w-80 rounded-lg px-4 text-gray-500 outline-none"
             />
             <input
               type="number"
+              required
               name="number"
               placeholder="Enter your number"
               className="h-14 w-80 rounded-lg px-4 text-gray-500 outline-none"
