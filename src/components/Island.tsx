@@ -2,9 +2,9 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
-
+import modelUrl from "../assest/model/stylized_tavern.glb"
 const Model = () => {
-  const { scene } = useGLTF("/public/model/stylized_tavern.glb");
+  const { scene } = useGLTF(modelUrl);
   scene.scale.set(2.5, 2.5, 2.5);
   return <primitive object={scene} />;
 };
