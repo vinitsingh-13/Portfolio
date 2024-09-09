@@ -87,18 +87,7 @@ export default function Sidebar() {
         
       ></div> */}
       </nav>
-      <div className="laptop:pl-20 ">
-        <a
-          href={resumepdf}
-          download="vinitsinghresume.pdf"
-          className="flex items-center justify-between  rounded-lg gap-2 transition-all duration-300 bg-neutral-800 p-3 hover:text-neutral-300"
-        >
-          Download Resume{" "}
-          <span className="animate-pulse">
-            <MdOutlineFileDownload />
-          </span>
-        </a>
-      </div>
+  
     </header>
   );
 }
