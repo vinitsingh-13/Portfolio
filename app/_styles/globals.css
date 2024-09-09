@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@keyframes handanimate{
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.waveanimation{
+  animation: handanimate 2s linear infinite;
+}
+@keyframes loop {
+  0% {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate {
+  animation: loop 120s linear infinite;
+}
+
+.animate-reverse {
+  animation: loop 120s linear infinite;
+  animation-direction:reverse;
+}
+.tools {
+  background: linear-gradient(
+    90deg,
+    #121212,
+    transparent 15%,
+    transparent 80%,
+    #121212
+  );
+  pointer-events: none;
+  inset: 0;
+  position:absolute;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  --color-primary: rgb(96, 165, 250);
+}
+@keyframes iconanimate {
+  50% {
+    opacity: .5;
+}
+  
+}
+.animate-icon {
+  animation: iconanimate 2s cubic-bezier(.4,0,.6,1) infinite;
+}
+.active{
+  background-color: rgb(38 38 38);
+}
+@keyframes open {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-open {
+  animation: open 0.8s ease forwards;
+}
